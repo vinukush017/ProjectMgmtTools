@@ -1,10 +1,10 @@
-import express, { Request, Response } from "express";
-import mongoose from "mongoose";
 import cors from "cors";
-import path from "path";
 import dotenv from "dotenv";
-import userRoutes from "./routes/users";
+import express from "express";
+import mongoose from "mongoose";
+import path from "path";
 import errorHandler from "./middleware/errorHandler";
+import userRoutes from "./routes/user-routes";
 
 dotenv.config();
 
